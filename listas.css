@@ -1,5 +1,6 @@
 body>ol {list-style-type: decimal-leading-zero;
          width: 90%;
+         list-style: url("https://image.flaticon.com/teams/new/1-freepik.jpg"); width: 20px;
 }
 ol>li>ol {list-style-type: upper-alpha;}
 
