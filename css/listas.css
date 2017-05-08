@@ -1,11 +1,14 @@
+body{
+    background-color: honeydew;
+}
+
 body>ol {list-style-type: decimal-leading-zero;
-         width: 90%;
-         list-style: url("https://image.flaticon.com/teams/new/1-freepik.jpg"); width: 20px;
+         width: 25%;
 }
 ol>li>ol {list-style-type: upper-alpha;}
 
-ul {list-style-image: url("../image/bullet_10.jpg");}
+ul {list-style-image: url("http://4.bp.blogspot.com/_vKZojuzTcY0/S7EE7qmmZWI/AAAAAAAAAFc/_FwQT_Sja5U/s320/gafas.jpg");}
 
     ul li:nth-child(2n) {
-        background-color: papayawhip;
+        background-color:   lightyellow;
     }
