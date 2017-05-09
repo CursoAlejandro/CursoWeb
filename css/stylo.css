@@ -4,6 +4,9 @@ h1 {
 
 }
 
+*{
+    background-color: aquamarine;
+}
 p
  {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -16,11 +19,20 @@ p
     font-size:24px;
  }
 
+h1:before {content: }
 
- #p1::first-line{
+ #p1{
+     background-color: yellow;
+     padding:white;
+     border: orange;
+     text-align: center;
 
  }
 
-  #p1::first-line{
-     
+  #p2::first-line{
+      background-color: yellow;
+ }
+ ul{
+     margin: auto
+
  }
