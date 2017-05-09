@@ -1,9 +1,19 @@
 body{
     background-color: honeydew;
+    border-width:12px; 
+    
+
 }
 
 body>ol {list-style-type: decimal-leading-zero;
          width: 25%;
+         border-style:dotted;
+         text-align: 30px;
+         width: 32px;
+    padding: 10px;
+    border: 3px solid gray;
+    margin: 0; 
+
 }
 ol>li>ol {list-style-type: upper-alpha;}
 
