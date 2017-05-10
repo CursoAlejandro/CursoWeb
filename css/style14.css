@@ -1,0 +1,23 @@
+div.caja1 {
+    position:absolute;
+    right: 5px;
+    bottom: 10px;
+    border: black solid;
+    padding: yellow;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    
+}
+
+div.caja2 {
+    position:absolute;
+    right: 5px;
+    bottom: 10px;
+    border: black solid;
+    padding: yellow;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    
+}

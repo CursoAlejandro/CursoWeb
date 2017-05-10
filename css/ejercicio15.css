@@ -1,0 +1,24 @@
+
+		h1#titulo1{
+			top:80px;
+			left:80px;
+			margin-top: 0px;
+            color:brown}	
+			
+		div {
+            
+            float:left;
+			margin-top: 0px;
+			top:12px;
+			left:60px;
+			width: 25%;
+            clear:both;
+            margin:auto;
+            
+            }	
+		
+		p {
+            position:relative;
+            float:right;
+            margin:auto;
+			}	
