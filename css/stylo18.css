@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    background-color: bisque;
+}
+h1{
+    font-size: 30px;
+    text-shadow: cadetblue;
+    text-align: center;
+    color:darkcyan ;
+    font-family: fantasy;
+}
+
+hr{
+    border: -3px;
+}
+
+figure{
+    float:left;
+}
+
+div.datos{
+ text-align: center;
+ font-size: 25px !important;
+}
+
+.datos-secundarios{
+    font-size: 20px;
+}
+.box{
+width:50%;
+height:auto;
+background:beige;
+float:left;
+}
+img {
+ width:100%;
+}
+
