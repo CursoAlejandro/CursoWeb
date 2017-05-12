@@ -1,3 +1,6 @@
+*{
+    background-color: lightgrey
+}
 h1 {
     font-size: 55px;
     color:firebrick;  
@@ -26,6 +29,12 @@ p
      border:solid
 
     }
+
+ #p3{
+     border: 4px blueviolet dotted; 
+     font-size: 19px;
+     color: lightseagreen
+ }
 
 body > p > div > a
      {
