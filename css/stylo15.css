@@ -1,0 +1,27 @@
+*{
+    background: lightyellow;
+    position: static;
+    
+}
+article{
+    display: table;
+    width: auto;
+    display: table;
+}
+
+article>div{
+ margin: 13px;
+ width:30%;
+ text-align: center;
+ float: left;
+ 
+}
+
+small
+{
+    clear: both;
+    margin: 30px 30px 30px 30px;
+    bottom: 30px;
+    top:30px;
+    ;
+}

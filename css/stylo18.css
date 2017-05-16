@@ -10,29 +10,74 @@ h1{
     font-family: fantasy;
 }
 
-hr{
-    border: -3px;
+body{
+    background-image: url("img/fondo.jpg") ;
+    
 }
-
 figure{
     float:left;
 }
 
+.louvre{
+    width: 70%;
+    margin-left:15% ;
+    
+}
+
+.ultimo-parrafo{
+    clear: both;  /* Hago un clear para que no interfiera
+                    en la imagen flotante*/
+}
+
 div.datos{
- text-align: center;
- font-size: 25px !important;
+ margin-top: 30px;
+ font-size: 10px !important;
+ position: absolute;
+ background-color:lightgreen;
+ border: 1px solid;
+ opacity: 0.8;
+ margin-left:40%; 
+ 
+ 
 }
 
 .datos-secundarios{
-    font-size: 20px;
+    font-size: 10px;
+    
 }
-.box{
-width:50%;
+.box1{
+clear: both;
+width:45%;
+margin: 10px;
 height:auto;
 background:beige;
 float:left;
+ margin:20px;
+}
+.box2{
+width:45%;
+margin: 10px;
+height:auto;
+background:beige;
+float:left;
+ margin:20px;
 }
 img {
  width:100%;
 }
+body{
+    position: relative;
+}
 
+author{
+clear: both;
+position: absolute;
+width: 40%;
+margin-top: 1100px;
+margin-left: 20px;
+margin-bottom: 40px;
+ 
+ 
+
+    
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <style>
+    label{
+        display: block;
+        margin: 20px;
+    }
+
+    form
+    {
+        margin: 50px;
+    }
+    </style>
+    <body>
+        <form method="get" action="https://google.es">
+            <fieldset>
+                <legend>Datos personales</legend>
+            
+                <label for="first_name"> Nombre</label>
+                <input type="text" name="first_name"  required placeholder="Escribe tu nombre...">
+
+                <label for="second_name">Apellido</label>
+                <input type="text" name="second_name" required>
+
+                <label for="ciudad">Ciudad</label>
+                <input type="ciudad" name="ciudad" value="">   
+
+                <label for="pswd">Contraseña</label>
+                <input type="password" name="pswd" value="">
+
+                <!--Textarea> -->
+
+                <input type="submit" name="send" value="enviar">
+            </fieldset>
+            <fieldset>
+                <legend>Buscar</legend>
+            
+                <input type="text" name="q" value="gatos">
+            </fieldset>
+            <fieldset>
+                    <label for="pswd">Dejame tus comentarios</label>
+                    <textarea rows="10" cols="25"></textarea>
+                
+            </fieldset>
+        </form>
+    
+    </body>
+</html>
