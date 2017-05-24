@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/CursoAlejandro/JS_Web#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "jquery": "^3.2.1"
   }
 }
