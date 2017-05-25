@@ -1,25 +1,18 @@
+//$ (document).ready
 
-window.onload function () {
-let oParrafos = document.querySelectorAll(".dinamico");
-
- let oBoton = document.querySelector("#btn1");
-
- oBoton.innerHTML="Ver mas"
-oBoton.addEventListener("click", mostrarMas)
-
-//function cambiarVista con for (){
-
-	{aParrafos[i].classList.toggle("oculto")}
+$(function () {
 	
-	
-	
+	$('body#lista')
+
+	$('addBoton').click(function(){
+		$('item')
+		prompt('Introduce tu new valor')
+	})
 
 
-oBoton.innerHTML = oBoton.innerHTML=="Ver mas" ? "Ver menos" : "Ver mas"
 
-}
-}
 	
+})
 
 
 

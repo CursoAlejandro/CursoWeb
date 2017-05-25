@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <!-- <link href="../css/style.css" rel="stylesheet">-->
+        
+    </head>
+    <body>
+        <input type="text" id="text">
+        <input type="submit" value="Check" onclick="palindrome()">
+
+        <script>
+        function palindrome(){
+            var revCadena = " ";
+            var inpCadena = document.getElementById("text");
+
+            for(j = i ; j>= 0 ; j-- ){
+                let revCadena2 = revCadena + inpCadena;
+                document.write(revCadena2 + " ")
+
+            }
+
+            if(inpCadena ===revCadena){
+                alert(inpCadena + "Palindrome")
+            }
+            else{
+                alert(inpCadena + " No ")
+            }
+            
+        }
+        
+        palindrome();
+            
+        </script>
+        <h1> </h1>
+    
+    </body>
+</html>
