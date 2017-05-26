@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function datos(){
+            var nombre = document.form1.nombre.value;
+            var idiomas  = document.form1.radio1.value;
+            var otros = document.form1.textarea.value;
+                
+
+var mip = document.querySelector("div1");
+mip.innerHTML = ("document.form1.nombre.value");
+
+            //document.write(nombre)
+            alert(idiomas)
+            alert(otros)
+
+            nombre.inner.ht
+        }
+    </script>
+</head>
+<body>
+    <form name="form1"action="">
+
+        <table align="center">
+            <tr>
+                <td>Nombre</td>
+                <td> <input type="text" name="nombre" id="nombre"></td>            
+            </tr>
+
+            <tr>
+                <td>Idiomas</td>
+                <td> <input type="radio" name="radio1" value="Ingles" id="radio1">Ingles<br>   
+                <input type="radio" name="radio2" id="radio2" value="Espñaol">Español  </td>       
+            </tr>
+            <tr>
+                <td>Otros Idiomas</td>
+                <td><textarea name="otros" id="textarea" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="enviar" onclick="datos()"></td>
+            </tr>
+        </table>
+
+
+
+    </form>
+
+    <div id="div1"></div>
+</body>
+</html>

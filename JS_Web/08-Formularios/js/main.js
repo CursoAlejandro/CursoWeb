@@ -4,8 +4,12 @@ var oPrincipal ={
 }
 
 function envio (){
-
-
+document.addEventListener("DOMContentLoaded", function(){
+    Formulario={
+        
+    }
+});
+oPrincipal.nombre.innerHTML
 
 document.write(oPrincipal.nombre);
 document.write(oPrincipal.apellido);
@@ -22,3 +26,4 @@ document.write();
 
 document.addEventListener("onclick", envio);
 envio();
+
