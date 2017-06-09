@@ -6,7 +6,7 @@ function envio() {
     var option1 = document.getElementById("password2");
     var aPasswd = ["", ""]
 
-    if (password.va == password2) {
+    if (password == password2) {
 
         alert('Paswrd correcta')
     }
@@ -14,6 +14,23 @@ function envio() {
         alert('Incorrecto')
     }
     document.addEventListener("DOMContentLoaded", main, false);
+}
+
+domForm.onsubmit = comprobar;
+
+function comparar(){
+    var msg ="",
+    if()
+}
+
+function comprobar(){
+    var msg ="",
+    if()
+}
+
+function mostrarResultados(){
+    var msg ="",
+    if()
 }
 
 

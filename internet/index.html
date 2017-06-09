@@ -13,30 +13,43 @@
                 
 
 var mip = document.querySelector("div1");
-mip.innerHTML = ("document.form1.nombre.value");
+mip.innerHTML = document.form1.nombre.value;
 
             //document.write(nombre)
             alert(idiomas)
             alert(otros)
 
-            nombre.inner.ht
+            nombre.inner.html
         }
     </script>
 </head>
 <body>
-    <form name="form1"action="">
+    <form name="form1" action="">
 
         <table align="center">
             <tr>
                 <td>Nombre</td>
                 <td> <input type="text" name="nombre" id="nombre"></td>            
             </tr>
+			<tr>
+                <td>Apellidos</td>
+                <td> <input type="text" name="apellidos" id="apellidos"></td>            
+            </tr>
+			
+			<tr>
+                <td>Apellidos</td>
+                <td> <input type="email" name="email" id="email"></td>            
+            </tr>
+			
+			<tr>
+                <td>Clave</td>
+                <td> <input type="password" name="password" id="password"></td>            
+            </tr>
 
             <tr>
                 <td>Idiomas</td>
-                <label >Radios</label>
-                <td> <input type="radio" name="radio1" value="Ingles" id="radio1">Ingles<br>   
-                <input type="radio" name="radio2" id="radio2" value="Espñaol">Español  </td>       
+                <td> <input type="radio" name="radio" value="Ingles" id="radio1">Ingles<br>   
+                <input type="radio" name="radio" id="radio2" value="Español">Español</td>       
             </tr>
             <tr>
                 <td>Otros Idiomas</td>

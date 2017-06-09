@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es-Es">  <!-- Elemento de accesibilidad predefinir el idioma en Español -->
+<head>
+<meta charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,200' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="estilos.css"> 
+<title role="Titulo de la Web">Editoriales Laguna </title> <!-- Role describiendo el titulo -->
+<meta name="viewport" content="initial-scale=1.0, width=device-width" /> <!-- Diseñado para moviles -->
+</head>
+
+<body bgcolor="F2F2F2"> <!-- Todos los elementos estan colores claros para facilitar a daltonicos  -->
+<header>
+	<div class="contenedor">
+	<div class="logo"></div>
+	<input type="checkbox" id="menu-bar">
+	<label class="icon-menu" for="menu-bar"></label>
+	<nav class="menu" role="Menu de Navegacion 5 secciones"> <!-- Role describiendo el Menu -->
+			<a href="">Inicio</a>
+			<a href="">Catalogo</a>
+			<a href="">Afilaciones</a>
+			<a href="">Novedades</a>
+			<a href="">contactenos</a>
+	</nav>
+	</div>
+</header>
+
+<main>
+<section id="banner">
+	<img role="Banner y fondo principal de la Web" alt="banner" src="Imagenes/Fondo1.jpg"> <!-- Role describiendo el Banner -->
+	<div class="contenedor"> 
+	<p>Los mejores ediciones de Libros hecho por profesionales </p>
+	</div>
+</section>
+
+
+
+<section id="banner2">
+	<div class="contenedor">
+	
+    <a href="">Top Ventas</a>
+	</div>
+</section>
+
+<section id="beneficios">
+	<h3>Ultimos Libros </h3>	<!-- Elemento de accesibilidad de ENCABEZADO -->
+		<div class="contenedor">
+    	<div class="beneficios">
+    	<img alt="Portada del Libro El retrato de Dorian" src="Imagenes/icon1.png"> <!-- Elemento de accesibilidad de Texto Alternativo -->
+    	<h4>El retrato de Dorian</h4>	 <!-- Elemento de accesibilidad de ENCABEZADO -->
+        <p>La crítica moralizante no dejó de acusar a su protagonista de ser una figura satánica, corrompida y corruptora, 
+			sin comprender que era el héroe de una novela que reflejaba la fatalidad de los románticos. Oscar Wilde (1854-1900) 
+			había querido hacer de la belleza un refinamiento de la inteligencia, y para ello sumió a su protagonista, Dorian Gray, 
+			en una atmósfera de perversión dominada por el arte y los poderes de un misterio que está más allá.
+        </p>
+    	</div>
+        <div class="beneficios">
+    	<img alt="Portada del Libro Patria" src="Imagenes/icon2.png"> <!-- Elemento de accesibilidad de Texto Alternativo -->
+    	<h4>Patria</h4>	<!-- Elemento de accesibilidad de ENCABEZADOS -->
+        <p> 
+			Sinopsis de Patria:
+			El día en que ETA anuncia el abandono de las armas, Bittori se dirige al 
+			cementerio para contarle a la tumba de su marido el Txato, asesinado por 
+			los terroristas, que ha decidido volver a la casa donde vivieron. ¿Podrá 
+			convivir con quienes la acosaron antes y después del atentado que trastocó 
+			su vida y la de su familia?
+        </p>
+    	</div>
+    </div>
+</section>
+
+
+<section id="blog" role="Seccion 2 conteniendo informacion extra"> <!-- Role describiendo esta seccion-->
+	<h2>Informacion Extra</h2>
+	<div class="contenedor">
+		<article>
+	<img src="Imagenes/caja1.png" alt="cuadro">	<!-- Elemento de accesibilidad de Texto Alternativo -->
+	
+	<div class="titulo" style="color:black" role="Mes del Libro">Mes del Libro <br></div>  <!-- Role describiendo esta seccion-->
+	<div class="texto">
+		<img class="apilado" src="Imagenes/libro.jpg" alt="Libros" style="max-width:55px">
+		La celebración del día del libro se remonta a principios del siglo XX. La historia del libro se hace festiva y surgen actividades literarias en toda España. 
+		Hoy, el día 23 de abril se celebra en todo el mundo.
+	</div>
+		</article>
+		<article>
+	<img src="Imagenes/caja2.png" alt="cuadro2">	<!-- Elemento de accesibilidad de Texto Alternativo -->
+    <div class="titulo1" style="color:black" role="Enlaces de Interes">Enlaces de interes<br></div>  <!-- Role describiendo esta seccion-->
+	<div class="texto1" ><ul class="dropdown-menu">
+                                <li><a href="http://twitter.com/infouma">Twitter</a></li>
+                                <li><a href="http://www.facebook.com/pages/Universidad-de-Malaga/361425208192">Facebook</a></li>
+                                <li><a href="https://instagram.com/infouma">Instagram</a></li>
+                                <li><a href="http://www.youtube.com/user/UniversidadMalaga">Youtube</a></li>
+                                <li><a href="http://www.madrid.es">Quejas y sugerencias | Madrid</a></li>
+                            </ul></div>
+		</article>
+	</div>
+</section>
+
+</main>
+
+<footer>
+	<div class="contenedor" role="Pie de pagina"> <!-- Role describiendo Pie de Pagina-->
+		<div class="contactenos">
+        	<h2>Y ahora</h2>
+         	<h1>Contactenos</h1>
+            <h2>es el momento de hacerlo</h2>
+			
+			
+            <div class="franja" role="Elementos de autoria"> <!-- Role describiendo elementos de autoria -->
+            <h2>&#64 Copyrigth Editorial Laguna</h2>
+            <h1> </h1>
+            <h2>Visitenos cuando quiera <br>
+				By Alejandro Roca
+			</h2>
+            </div>
+            
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>

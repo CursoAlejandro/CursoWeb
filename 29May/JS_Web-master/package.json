@@ -1,27 +1,28 @@
 {
   "name": "js_web",
   "version": "1.0.0",
-  "description": "Jquery",
+  "description": "JS & JQuery en la Web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CursoAlejandro/JS_Web.git"
+    "url": "git+https://github.com/alce65/JS_Web.git"
   },
   "keywords": [
-    "jquer"
+    "JS",
+    "JQuery"
   ],
-  "author": "Alejandro Roca",
+  "author": "Alejandro Cerezo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CursoAlejandro/JS_Web/issues"
+    "url": "https://github.com/alce65/JS_Web/issues"
   },
-  "homepage": "https://github.com/CursoAlejandro/JS_Web#readme",
+  "homepage": "https://github.com/alce65/JS_Web#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
-    "lightbox2": "^2.9.0"
+    "lightbox": "^0.5.0"
   }
 }

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 300px; height: 300px; padding: 0.5em; }
+
+  #draggable3 { width: 300px; height: 300px; padding: 0.5em; border: solid}
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() { // functiont ready 
+    $( "#draggable" ).draggable();
+    $( "#draggable3" ).draggable();
+  } );
+  </script>
+</head>
+<body>
+ 
+d
+ <img src="http://www.pequeocio.com/wp-content/uploads/2014/10/habitaciones-infantiles-peque%C3%B1as.jpg"
+  id="draggable" class="ui-widget-content" alt="Habitacion">
+
+  <img src="http://www.pequeocio.com/wp-content/uploads/2014/10/habitaciones-infantiles-peque%C3%B1as.jpg"
+  id="draggable2" class="ui-widget-content" alt="Habitacion">
+
+  <p id="draggable3">Drag me around</p>
+</div>
+ 
+ 
+</body>
+</html>
